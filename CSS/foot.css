@@ -1,0 +1,102 @@
+.foot
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 5%; */
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.full-logo, .cpr, .social
+{
+    margin:5%;
+}
+
+.full-logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.full-logo > img
+{
+    width: 90%;
+    /* min-width: 90%; */
+}
+
+.social
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* min-width: 15%; */
+    width: 20%;
+}
+
+.social > a
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* min-width: 10%; */
+}
+
+.social > a > img
+{
+    width: 90%;
+}
+
+.yt-link
+{
+    /* min-width: 10%; */
+    width: 40%;
+}
+
+.twit-link
+{
+    width: 30%;
+}
+
+.ig-link
+{
+    width: 30%;
+}
+
+.cpr
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 200%;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 800px)
+{
+    .foot
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .full-logo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

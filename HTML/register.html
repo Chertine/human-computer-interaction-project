@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaForant</title>
+    <script src="./../JS/jquery-3.5.1.min.js"></script>
+    <script src="./../JS/navbar.js"></script>
+    <script src="./../JS/register.js"></script>
+    <link rel="stylesheet" href="./../CSS/register.css">
+    <link rel="stylesheet" href="./../CSS/navbar.css">
+    <link rel="stylesheet" href="./../CSS/foot.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-menu">
+            <div class="nav-obj">
+                <img class="nav-logo" src="./../Assets/Logo_Text.png" alt="">
+                <img class="triangle-btn" src="./../Assets/tribtn.png" alt="">
+            </div>    
+            <div class="nav-obj dropdown">
+                    <a href="./index.html" class="nav-link">HOME</a>
+                    <a href="./maps.html" class="nav-link">MAPS</a>
+                    <a href="./agent.html" class="nav-link">AGENTS</a>
+                    <a href="./spec.html" class="nav-link">SYSTEMS REQUIREMENTS</a>
+                    <a href="./register.html" class="nav-link">PRE-REGISTER</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="title">PRE REGISTER NOW!</div>
+        <div class="table">
+            <div class="inputs">
+                <div class="uname">
+                    <div>
+                        Username:
+                    </div>
+                    <input type="text" class="input uname" id="uname">
+                </div>
+                <div class="email">
+                    <div>
+                        Email:
+                    </div>
+                    <input type="text" class="input email" id="email">
+                </div>
+                <div class="pass">
+                    <div>
+                        Password:
+                    </div>
+                    <input type="password" class="input pass" id="pass">
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" name="news" class="checkbox"> Send me newsletter
+            </div>
+            <div>
+                <input type="checkbox" name="agree" id="agree" class="checkbox"> I have read and agreed to the terms and condition
+            </div>
+            <button onclick="verify()">Submit</button>
+        </div>
+    </div>
+
+    <div class="foot">
+        <div class="full-logo">
+            <img src="./../Assets/Logo.png">
+        </div>
+        <div class="cpr">
+            © 2021 LaForant
+        </div>
+        <div class="social">
+            <a href="https://www.youtube.com/" class ="yt-link">
+                <img src="./../Assets/Youtube.png" class="yt">
+            </a>
+            <a href="https://www.twitter.com/" class ="twit-link">
+                <img src="./../Assets/twitter.png" class="twit">
+            </a>
+            <a href="https://www.instagram.com/" class = "ig-link">
+                <img src="./../Assets/IG.png" class="ig">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

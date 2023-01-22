@@ -1,0 +1,25 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    font-size: 1vw;
+}
+
+.test1
+{
+    font-size: 200%;
+    background-color: red;
+}
+
+.test2
+{
+    font-size: 150%;
+    background-color: yellow;
+}

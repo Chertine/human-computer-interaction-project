@@ -1,0 +1,93 @@
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+    background-image: url("./../Assets/sky.jpg");
+    background-size: cover;
+}
+
+div
+{
+    color: #a41118;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 290%;
+    
+}
+
+.map
+{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    min-height: 50vh;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+    background: rgba(255, 255, 255, 0.46);
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44%;
+}
+
+.name
+{
+    margin-top: 9%;
+    text-align: center;
+    font-size: 240%;
+}
+
+.story
+{
+    margin-bottom: 5%;
+}
+
+.desc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5%;
+    width: 80%;
+}
+
+.desc > div
+{
+    text-align: left;
+    font-size: 120%;
+}
+
+.image
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image > img
+{
+    width: 100%;
+    height: 80%;
+}
