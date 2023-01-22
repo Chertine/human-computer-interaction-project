@@ -1,1 +1,2 @@
 # Human Computer Interaction Project
+This is a project I did for my Human Computer Interaction subject during my 2nd Semester period.  It is a static website made with HTML, JS, and CSS.  The HTML is for the HTML, CSS is for styling and the JS is for more interactive elements like sliders.  Some of the assets are made with photoshop while most are taken from internet.
